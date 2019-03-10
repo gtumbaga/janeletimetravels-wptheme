@@ -1,0 +1,129 @@
+/*
+Theme Name: Twenty Nineteen Child Theme
+Theme URI: https://github.com/WordPress/twentynineteen
+Author: Gabriel Tumbaga
+Author URI: https://wordpress.org/
+Description: Child Theme created for janeletimetravels theme.
+Template: twentynineteen
+Version: 1.0
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+html * {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.constraint {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+.container {
+  display: grid;
+}
+h1.entry-title {
+  display: none;
+}
+a, .page-header a, .page-header a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.page-header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 40px;
+  grid-template-areas:
+    "header-logo header-nav"
+}
+.page-header .gitm {
+  align-self: center;
+}
+.page-header .logo-holder {
+  /*text-align: center;*/
+  grid-area: header-logo;
+}
+.page-header nav {
+  grid-area: header-nav;
+  justify-self: end;
+  text-transform: uppercase;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+nav ul li.current-menu-item a {
+  font-weight: bold;
+}
+
+nav ul li a {
+  font-weight: normal;
+}
+
+.logo-holder {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.front-hero {
+  height: 400px;
+  position: relative;
+}
+.front-hero .text-holder {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  bottom: 40px;
+  left: 40px;
+}
+.front-hero .img-holder {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .3;
+}
+.front-hero .glow {
+  text-shadow: 0px 0px 12px #ffffff;
+}
+.front-hero h1 {
+  margin-top: 4vw;
+}
+.front-hero h2 {
+  font-weight: normal !important;
+  max-width: 840px;
+}
+.front-hero a {
+  text-decoration: underline;
+}
+main {
+  min-height: 400px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+footer .footer-text {
+  font-size: 12px;
+  text-align: center;
+}
+#site-navigation .main-menu-more {
+  display: none;
+}
