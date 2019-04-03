@@ -23,4 +23,16 @@
     text-align: center;
     padding: 4px 0;
   }
+  .page-header .logo-holder {
+    text-align: center;
+  }
+  #site-navigation {
+    display: none;
+    margin-top: 29px;
+    margin-right: 4px;
+  }
+  #btn-main-nav-toggle {
+    display: block;
+  }
+  
 }
