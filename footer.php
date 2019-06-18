@@ -13,10 +13,10 @@
 
 ?>
 
-<footer class="constraint">
+<footer id="master-footer" class="constraint">
   <div class="footer-text">
     <?php wp_footer(); ?>
-    &copy; 2019 JaneleTimeTravels. All Rights Reserved. Site by Gabe Tumbaga.
+    &copy; 2019 JaneleTimeTravels. All Rights Reserved. Site by <a href="https://omga.be" target="_blank">Gabe Tumbaga</a>.
     <?php //get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
     <?php
     if ( function_exists( 'the_privacy_policy_link' ) ) {

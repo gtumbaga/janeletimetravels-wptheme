@@ -147,8 +147,8 @@ main {
   min-height: 400px;
 }
 
-footer {
-  margin-top: 40px;
+#master-footer {
+  margin-top: 40px !important;
 }
 
 footer .footer-text {
@@ -286,6 +286,7 @@ article.post.type-post {
 }
 h2.entry-title {
   margin: 0;
+  margin-bottom: 4px;
 }
 body.archive .grid h2 {
   white-space: nowrap;
@@ -315,9 +316,14 @@ body.archive .grid .entry-content {
   display: block;
   width: 100%;
   font-weight: 300;
+  font-size: 14px;
+  padding: 6px;
 }
 #comments h2[aria-hidden=true] {
   display: none;
+}
+.comment-metadata {
+  font-size: 12px;
 }
 .screen-reader-text {
   display: none;
