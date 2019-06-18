@@ -11,6 +11,9 @@
 
 get_header();
 ?>
+<div class="debug">
+PAGE
+</div>
 <main id="content" class="site-content">
   <div class="container constraint">
     <?php if(is_front_page()): ?>

@@ -16,7 +16,7 @@
 <footer class="constraint">
   <div class="footer-text">
     <?php wp_footer(); ?>
-    &copy; 2019 Janele Mae Tating
+    &copy; 2019 JaneleTimeTravels. All Rights Reserved. Site by Gabe Tumbaga.
     <?php //get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
     <?php
     if ( function_exists( 'the_privacy_policy_link' ) ) {
